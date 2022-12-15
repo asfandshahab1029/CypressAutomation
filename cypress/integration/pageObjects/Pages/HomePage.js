@@ -3,7 +3,7 @@ class HomePage{
 
     vist(){
         cy.wait(2000)
-        cy.visit("http://localhost:3000/signin");
+        cy.visit("http://localhost:3000/signin")
     }
     clickHome(){
         cy.wait(2000)
